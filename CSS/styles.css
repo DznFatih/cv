@@ -1,0 +1,184 @@
+body, p {
+  margin-top: 0;
+  margin-right: 0;
+  margin-left: 0;
+}
+
+body {
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  width: 98%;
+  margin: 30px auto 0.5% auto;
+  background: #3a3535;
+}
+
+h2 {
+  color: #66BFBF;
+}
+
+a {
+  color: #11999E;
+}
+
+h3 {
+  color: #11999E;
+}
+
+h2, h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+}
+
+hr {
+  border: 6px dotted gray;
+  border-right-style: none;
+  border-left-style: none;
+  border-bottom-style: none;
+  width: 3%;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.header-name {
+  font-family: 'Sacramento', cursive;
+  font-size: 5.25rem;
+  margin: 50px auto 0 auto;
+  color: #66BFBF;
+  line-height: 2;
+}
+
+.header-description {
+  font-weight: normal;
+}
+
+.top-container-header {
+  padding-top: 100px;
+}
+
+.top-container {
+  background: #effffb;
+  position: relative;
+}
+
+.top-cloud {
+  position: absolute;
+  left: 1100px;
+  top: 60px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  top: 280px;
+  left: 400px;
+}
+
+.content {
+  background: #f4f4f4;
+  padding-bottom: 100px;
+  padding-top: 80px;
+
+}
+
+.profile {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.profile img {
+  border-radius: 100px;
+}
+
+.profile p {
+  color: #40514E;
+
+}
+
+.skill-row {
+  width: 50%;
+  margin: 0 auto;
+  text-align: left;
+  padding-bottom: 100px;
+  padding-top: 70px;
+}
+
+.skill-row h3 {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+p{
+  line-height: 2;
+  text-align: justify;
+}
+
+.image-width {
+  width: 30%;
+  border: 1px solid black;
+}
+
+.csharp {
+  width: 40%;
+  float: left;
+  margin-right: 30px;
+}
+
+.python {
+  float: right;
+  margin-left: 30px;
+}
+
+.contact-me p {
+  padding-bottom: 30px;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.btn {
+  background-color: #44c767;
+  border-radius: 28px;
+  border: 1px solid #18ab29;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 17px;
+  padding: 16px 31px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #2f6627;
+}
+
+.btn:hover {
+  background-color: #5cbf2a;
+}
+
+.btn:active {
+  position: relative;
+  top: 1px;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.bottom-container a {
+
+  margin-right: 30px;
+  margin-left: 30px;
+  color: #11999E;
+  text-decoration: none;
+}
+
+.bottom-container a:hover{
+  color: white;
+}
+
+.bottom-container p {
+  color: #EAF6F6;
+  padding-top: 60px;
+  font-size: 0.7rem;
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+}
