@@ -7,8 +7,8 @@ body, p {
 body {
   text-align: center;
   font-family: 'Merriweather', serif;
-  width: 98%;
-  margin: 30px auto 0.5% auto;
+  width: 100%;
+  margin: 0 auto ;
   background: #3a3535;
 }
 
@@ -116,7 +116,7 @@ p{
   border: 1px solid black;
 }
 
-.csharp {
+.excel {
   width: 40%;
   float: left;
   margin-right: 30px;
@@ -125,6 +125,12 @@ p{
 .python {
   float: right;
   margin-left: 30px;
+}
+
+.sql {
+  width: 40%;
+  float: left;
+  margin-right: 30px;
 }
 
 .contact-me p {
@@ -158,8 +164,12 @@ p{
 
 .bottom-container {
   background-color: #66BFBF;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 50px 0;
+  overflow: hidden;
+}
+
+.bottom-container .social-media {
+  padding-top: 20px;
 }
 
 .bottom-container a {
